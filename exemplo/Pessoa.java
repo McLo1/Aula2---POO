@@ -8,7 +8,8 @@ public class Pessoa {
             this.nome = nome;
             this.idade = idade;
             this.email = email;
-        }dw
+        }
+        
         public String getNome() {
             return nome;
         }
