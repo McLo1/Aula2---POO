@@ -4,6 +4,11 @@ public class Pessoa {
         private int idade;
         private String email;
         
+        public Pessoa(String nome, int idade, String email) {
+            this.nome = nome;
+            this.idade = idade;
+            this.email = email;
+        }dw
         public String getNome() {
             return nome;
         }
