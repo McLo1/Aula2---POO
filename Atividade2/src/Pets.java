@@ -1,10 +1,10 @@
 public class Pets {
 
-    String nome;
-    int idade;
-    String raca;
-    String porte;
-    String alimentacao;
+    private String nome;
+    private int idade;
+    private String raca;
+    private String porte;
+    private String alimentacao;
 
     public Pets(String nome, int idade, String porte, String raca, String alimentacao) {
         this.nome = nome;
