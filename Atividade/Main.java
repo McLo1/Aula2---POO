@@ -25,6 +25,8 @@ public class Main {
         livro.getAutor() + "\nNumero de paginas do livro: "+
         livro.getNumPaginas() + "\nPreço do livro: " + livro.getPreco());
 
+        scan.close();
+
 
     }
 }
