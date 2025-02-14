@@ -6,11 +6,12 @@ public class MainLivro {
     double Preco;
 
     public MainLivro(String titulo, String autor, int numPaginas, double preco) {
-        
+
         Titulo = titulo;
         Autor = autor;
         NumPaginas = numPaginas;
         Preco = preco;
+        
     }
     public String getTitulo() {
         return Titulo;
