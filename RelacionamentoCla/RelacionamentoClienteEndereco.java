@@ -6,5 +6,9 @@ public class RelacionamentoClienteEndereco {
 
         System.out.println(cliente1.toString());
 
+        //Versão 2.0
+        ClienteRelacionamento cliente2 = new ClienteRelacionamento("Marta", "33", 
+        new EnderecoRelacionamento("Rua a", "N° 200", "Salvador"));
+
     }
 }
