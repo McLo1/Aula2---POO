@@ -8,7 +8,8 @@ public class RelacionamentoClienteEndereco {
 
         //Versão 2.0
         ClienteRelacionamento cliente2 = new ClienteRelacionamento("Marta", "33", 
-        new EnderecoRelacionamento("Rua a", "N° 200", "Salvador"));
-
+        new EnderecoRelacionamento("Rua b", "N° 559", "Lauro de Freitas"));
+        
+        System.out.println(cliente2.toString());
     }
 }
