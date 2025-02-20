@@ -57,7 +57,7 @@ public class Funcionario {
     @Override
     public String toString() {
         return "Funcionario [id=" + id + ", Nome=" + Nome + ", salario=" + salario + ", setor=" + setor + ", sexo="
-                + sexo + ", idade=" + idade + "]";
+                + sexo.getTexto() + ", idade=" + idade + "]";
     }
 
 }
