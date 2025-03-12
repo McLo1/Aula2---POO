@@ -1,29 +1,49 @@
-public class Motoboy extends Funcionario {
+public class Motoboy extends Funcionario{
 
-    private String placaDaMoto;
 
-    public Motoboy(String nome, String cpf, String dataNascimento, double salarioBase, String placaDaMoto) {
+    public Motoboy(String nome, String cpf, String dataNascimento, double salarioBase) {
         super(nome, cpf, dataNascimento, salarioBase);
-        this.placaDaMoto = placaDaMoto;
     }
 
-    public String getPlacaDaMoto() {
-        return placaDaMoto;
+    public double ObterSalarioFinal() {
+        return this.salarioBase + 1000;
     }
 
-    public void setPlacaDaMoto(String placaDaMoto) {
-        this.placaDaMoto = placaDaMoto;
+    public String getNome() {
+        return nome;
     }
 
-    @Override
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public String getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(String dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+
+    public double getSalarioBase() {
+        return salarioBase;
+    }
+
+    public void setSalarioBase(double salarioBase) {
+        this.salarioBase = salarioBase;
+    }
+    
     public String toString() {
-        return "Motoboy{" +
-                "nome='" + getNome() + '\'' +
-                ", cpf='" + getCpf() + '\'' +
-                ", dataNascimento='" + getDataNascimento() + '\'' +
-                ", salarioBase=" + getSalarioBase() +
-                ", placaDaMoto='" + placaDaMoto + '\'' +
-                '}';
+        return "Nome: " + this.nome + "\nCPF: " + this.cpf + "\nData de Nascimento: " + this.dataNascimento + "\nSalário Base: " + this.salarioBase + "\nSalário Final: " + this.ObterSalarioFinal();
     }
+
 
 }

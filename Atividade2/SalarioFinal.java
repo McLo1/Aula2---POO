@@ -1,3 +1,3 @@
 public interface SalarioFinal {
-    public double ObterSalarioFinal();
+    public abstract double ObterSalarioFinal();
 }
